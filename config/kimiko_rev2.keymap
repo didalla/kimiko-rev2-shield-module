@@ -206,11 +206,11 @@
 
         default_layer {
             bindings = <
-&mt TILDE ESC  &ht_tp F1 N1  &ht_tp F2 N2   &ht_tp F3 N3     &ht_tp F4 N4    &ht_tp F5 N5                                                                                                  &ht_tp F6 N6      &ht_tp F7 N7    &ht_tp F8 N8    &ht_tp F9 N9   &ht_tp F10 N0     &mt MINUS EQUAL
-&kp TAB        &ht_tp F11 Q  &ht_tp F12 W   &kp E            &kp R           &kp T                                                                                                         &kp Y             &td_ue          &kp I           &td_oe         &kp P             &ht_tp RBKT LBKT
-&kp LEFT_WIN   &td_ae        &hm_lp LALT S  &hm_lp LCTRL D   &hm_lp LSHFT F  &kp G                                                                                                         &kp H             &hm_rp RSHFT J  &hm_rp RCTRL K  &hm_rp RALT L  &hm_rp RGUI SEMI  &kp APOS
-&kp LSHFT      &kp Z         &kp X          &kp C            &kp V           &kp B         &ht_tp_msc SCRL_LEFT DOWN_ARROW  &ht_tp_msc SCRL_RIGHT UP_ARROW  &kp PAGE_DOWN     &kp PAGE_UP  &kp N             &kp M           &kp COMMA       &kp DOT        &mt BSLH FSLH     &mt CARET GRAVE
-                                            &kp PRINTSCREEN  &kp INSERT      &kp DELETE    &kp SPACE                        &kp BACKSPACE                   &ht_tp HOME LEFT  &kp RET      &ht_tp END RIGHT  &tog 1          &tog 2
+&mt TILDE ESC  &ht_tp F1 N1  &ht_tp F2 N2  &ht_tp F3 N3     &ht_tp F4 N4  &ht_tp F5 N5                                                                                 &ht_tp F6 N6      &ht_tp F7 N7  &ht_tp F8 N8  &ht_tp F9 N9  &ht_tp F10 N0  &mt MINUS EQUAL
+&kp TAB        &kp Q         &kp W         &kp E            &kp R         &kp T                                                                                        &kp Z             &kp U         &kp I         &kp O         &kp P          &ht_tp RBKT LBKT
+&kp LEFT_WIN   &kp A         &kp S         &kp D            &kp F         &kp G                                                                                        &kp H             &kp J         &kp K         &kp L         &kp HASH       &kp APOS
+&kp LSHFT      &kp Y         &kp X         &kp C            &kp V         &kp B         &kp LEFT_WIN    &ht_tp_msc SCRL_RIGHT UP_ARROW  &kp PAGE_DOWN     &kp PAGE_UP  &kp N             &kp M         &kp COMMA     &kp DOT       &mt BSLH FSLH  &mt CARET GRAVE
+                                           &kp PRINTSCREEN  &kp INSERT    &kp SPACE     &kp LEFT_SHIFT  &kp BACKSPACE                   &ht_tp HOME LEFT  &kp RET      &ht_tp END RIGHT  &tog 1        &tog 2
             >;
         };
 
@@ -241,6 +241,16 @@
 &kp LSHIFT     &td_ae        &kp S         &kp D            &kp F         &kp G                                                                                                  &kp H         &kp J         &kp K         &kp L         &ht_tp F12 SEMI  &mt RSHFT APOS
 &kp LCTRL      &kp Z         &kp X         &kp C            &kp V         &kp B         &ht_tp_msc SCRL_LEFT DOWN_ARROW  &ht_tp_msc SCRL_RIGHT UP_ARROW  &kp LEFT     &kp RIGHT  &kp N         &kp M         &kp COMMA     &kp DOT       &mt BSLH FSLH    &kp RCTRL
                                            &kp PRINTSCREEN  &kp LGUI      &kp LALT      &kp SPACE                        &kp BACKSPACE                   &mt DEL INS  &kp RET    &mt END HOME  &tog 1        &tog 2
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&mt TILDE ESC  &ht_tp F1 N1  &ht_tp F2 N2   &ht_tp F3 N3     &ht_tp F4 N4    &ht_tp F5 N5                                                                                                  &ht_tp F6 N6      &ht_tp F7 N7    &ht_tp F8 N8    &ht_tp F9 N9   &ht_tp F10 N0     &mt MINUS EQUAL
+&kp TAB        &ht_tp F11 Q  &ht_tp F12 W   &kp E            &kp R           &kp T                                                                                                         &kp Y             &td_ue          &kp I           &td_oe         &kp P             &ht_tp RBKT LBKT
+&kp LEFT_WIN   &td_ae        &hm_lp LALT S  &hm_lp LCTRL D   &hm_lp LSHFT F  &kp G                                                                                                         &kp H             &hm_rp RSHFT J  &hm_rp RCTRL K  &hm_rp RALT L  &hm_rp RGUI SEMI  &kp APOS
+&kp LSHFT      &kp Z         &kp X          &kp C            &kp V           &kp B         &ht_tp_msc SCRL_LEFT DOWN_ARROW  &ht_tp_msc SCRL_RIGHT UP_ARROW  &kp PAGE_DOWN     &kp PAGE_UP  &kp N             &kp M           &kp COMMA       &kp DOT        &mt BSLH FSLH     &mt CARET GRAVE
+                                            &kp PRINTSCREEN  &kp INSERT      &kp DELETE    &kp SPACE                        &kp BACKSPACE                   &ht_tp HOME LEFT  &kp RET      &ht_tp END RIGHT  &tog 1          &tog 2
             >;
         };
     };
